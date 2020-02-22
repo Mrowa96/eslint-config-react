@@ -1,0 +1,5 @@
+.vscode
+.github
+.gitattributes
+.gitignore
+prettier.config.js
