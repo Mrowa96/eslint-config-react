@@ -38,6 +38,7 @@ const typeScriptConfig = {
   rules: {
     'import/prefer-default-export': 'off',
     'react/jsx-props-no-spreading': 'off',
+    'react-hooks/exhaustive-deps': 'off',
   },
   env: {
     node: false,
