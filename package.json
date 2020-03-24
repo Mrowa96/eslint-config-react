@@ -2,7 +2,7 @@
   "name": "@mrowa96/eslint-config-react",
   "description": "Eslint configuration for React based projects.",
   "main": "dist/index.js",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": "Paweł Mrowiec <work@pawel-mrowiec.pl>",
   "license": "MIT",
   "repository": {
