@@ -1,8 +1,9 @@
+const baseConfig = require('./base');
+
 module.exports = {
   extends: [
     'airbnb-typescript',
     'airbnb/hooks',
-    'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:import/typescript',
@@ -19,6 +20,7 @@ module.exports = {
     project: './tsconfig.json',
   },
   rules: {
+    ...baseConfig.rules,
     'import/prefer-default-export': 'off',
     'react/jsx-props-no-spreading': 'off',
     'react-hooks/exhaustive-deps': 'off',
