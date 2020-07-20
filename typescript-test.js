@@ -17,6 +17,7 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/require-await': 'off',
     '@typescript-eslint/ban-ts-ignore': 'off',
+    '@typescript-eslint/no-unsafe-assignment': 'off',
   },
   env: {
     node: true,
