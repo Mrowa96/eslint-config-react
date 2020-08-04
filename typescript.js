@@ -25,6 +25,7 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'react-hooks/exhaustive-deps': 'off',
     '@typescript-eslint/require-await': 'off',
+    '@typescript-eslint/no-floating-promises': 'off',
   },
   env: {
     node: true,
